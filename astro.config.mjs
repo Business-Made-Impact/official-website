@@ -25,8 +25,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   site: 'https://businessmadeimpact.com',
-  // site: SITE.site,
-  // base: SITE.base,
+
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
   output: 'static',
